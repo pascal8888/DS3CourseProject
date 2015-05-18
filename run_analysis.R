@@ -46,8 +46,15 @@ df_combined$Activity <- vctr_activity_names [df_combined$Activity]
 ##
 ## STEP 4 <- Appropriately labels the data set with descriptive variable names.
 ##
-## Partially done in the process of step 2. Additional step - remove the "Freq" meausures.  Otherwise keep the variable names as column headers - changing them would require explanation, this is tidyer. The features_info.txt file, found in the root of the unzipped source data file, gives a very good explanation of the meanings.
+## Began in step 2. Additional steps - remove the "Freq" meausures.
 df_combined <- df_combined[, grep("Freq",invert=TRUE,names(df_combined))]
+## Hadley likes lower-cased variable names
+names(df_combined) <- tolower(names(df_combined))
+## Remove "()"
+## names(df_combined)[3:68] <- sub("()","",names(df_combined)[3:68],value=T)
+## The first two columns observe English grammar capitalized first letter.
+names(df_combined)[1] <- "Subject"
+names(df_combined)[2] <- "Activity"
 ##
 ## STEP 5 <- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Good luck!
 ##
