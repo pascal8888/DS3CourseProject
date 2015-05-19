@@ -46,11 +46,15 @@ df_combined$Activity <- vctr_activity_names [df_combined$Activity]
 ##
 ## STEP 4 <- Appropriately labels the data set with descriptive variable names.
 ##
-## Began in step 2. Additional steps - remove the "Freq" meausures.
+## Remove the "Freq" meausures.
 df_combined <- df_combined[, grep("Freq",invert=TRUE,names(df_combined))]
+## Replace X, Y, & Z with -x-axis , -y-axis & -z-axis
+names(df_combined) <- sub("X","x-axis",names(df_combined),ignore.case=FALSE)
+names(df_combined) <- sub("Y","y-axis",names(df_combined),ignore.case=FALSE)
+names(df_combined) <- sub("Z","z-axis",names(df_combined),ignore.case=FALSE)
 ## Hadley likes lower-cased variable names
 names(df_combined) <- tolower(names(df_combined))
-## Remove "()"
+## Remove "()" remember the left bracket "(" is a special character that needs escaping.  Spent much time figuring that out the hard way.  The right bracket ")" does not require an escape.
 names(df_combined)[3:68] <- sub("\\()","",names(df_combined)[3:68])
 ## The first two columns observe English grammar capitalized first letter.
 names(df_combined)[1] <- "Subject"
