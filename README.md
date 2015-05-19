@@ -32,7 +32,7 @@ activityrecognition@smartlab.ws | www.smartlab.ws
 
 ###Development Notes
 Windows 8 (Build 9200), x64 OS
-#####NOTE - If on a Macintosh computer it will be necessary to modify the "download.file" function parameter in run_analysis.R to include *method = "curl"* and remove the *mode = "wb"*
+#####NOTE - If on a Macintosh computer it will be necessary to modify the "download.file" function parameter in run_analysis.R to include *method = "curl"* and remove *mode = "wb"*
 
 \>R.Version()
 $platform
