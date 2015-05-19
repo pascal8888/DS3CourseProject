@@ -20,7 +20,9 @@ activityrecognition@smartlab.ws | www.smartlab.ws
     2. Overwrite the numbers in the data frame with the corresponding verbs
 4. STEP 4 <- Appropriately labels the data set with descriptive variable names.
     1. Removes unwanted "Freq" column
-    2. Columns retain variable names described in CodeBook.md
+    2. Ambiguous "X","Y", and "Z", have been replaced with the more meaningful "x-axis","y-axis", and "z-axis" (respectively).
+    3. Unnecessary parantheses have been removed
+    4. Sets names to lower-case
 5. STEP 5 <- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Good luck!
     1. Uses reshape2 to melt the measures variables to key pairs
     2. Uses reshape2 - cast to set the final data frame calculating the mean and grouping by Subject (30) and Activity (6). which results in 180 rows of 68 variables.
