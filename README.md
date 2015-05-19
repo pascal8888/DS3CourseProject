@@ -32,7 +32,7 @@ activityrecognition@smartlab.ws | www.smartlab.ws
 
 ###Development Notes
 Windows 8 (Build 9200), x64 OS
-> R.Version()
+\\>R.Version()
 $platform
 [1] "x86_64-w64-mingw32"
 
