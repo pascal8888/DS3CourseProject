@@ -33,6 +33,6 @@ mean(): Mean value
 std(): Standard deviation
 #-------------
 The variables in columns 3 - 68 of the finaldata.txt data set have been set to the above naming pattern representing mean and standard deviation (std) values, and have been modified for human readability in the following manner:
-1. Names have been converted to lower-case to reduce the possibility of typos due to upper/lower readability.
-2. Ambiguous "X","Y", and "Z", have been replaced with the more meaningful "x-axis","y-axis", and "z-axis" (respectively).
-3. Unnecessary parantheses have been removed
+    1. Names have been converted to lower-case to reduce the possibility of typos due to upper/lower readability.
+    2. Ambiguous "X","Y", and "Z", have been replaced with the more meaningful "x-axis","y-axis", and "z-axis" (respectively).
+    3. Unnecessary parantheses have been removed
