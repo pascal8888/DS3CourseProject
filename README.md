@@ -29,6 +29,7 @@ activityrecognition@smartlab.ws | www.smartlab.ws
     3. Writes the result to a table - "finaldata.txt"
     4. Opens the file for viewing
     5. Cleans up the objects in the environment, leaving finaldata data frame.
+
 ###Development Notes
 Windows 8 (Build 9200), x64 OS
 > R.Version()
