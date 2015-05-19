@@ -51,7 +51,7 @@ df_combined <- df_combined[, grep("Freq",invert=TRUE,names(df_combined))]
 ## Hadley likes lower-cased variable names
 names(df_combined) <- tolower(names(df_combined))
 ## Remove "()"
-## names(df_combined)[3:68] <- sub("()","",names(df_combined)[3:68],value=T)
+names(df_combined)[3:68] <- sub("\\()","",names(df_combined)[3:68])
 ## The first two columns observe English grammar capitalized first letter.
 names(df_combined)[1] <- "Subject"
 names(df_combined)[2] <- "Activity"
