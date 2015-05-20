@@ -35,7 +35,7 @@ https://github.com/pascal8888/DS3CourseProject/blob/master/CodeBook.md
 
 ###Development Notes
 Windows 8 (Build 9200), x64 OS
-#####NOTE - If on a Macintosh computer it will be necessary to modify the "download.file" function parameter in run_analysis.R to include *method = "curl"* and remove *mode = "wb"*
+#####NOTE - If on a Macintosh computer it will be necessary to modify the "download.file" function parameter in run_analysis.R to include *method = "curl"*
 
 \>R.Version()
 $platform

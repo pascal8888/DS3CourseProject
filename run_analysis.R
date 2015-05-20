@@ -4,7 +4,7 @@
 ##  Get the source data set and extract in working directory (only downloads and unzips if it does not already exist)
 if (!file.exists("source_dataset.zip")) {
     download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ",
-                  "source_dataset.zip", mode="wb", "auto", TRUE)
+                  "source_dataset.zip", "auto", TRUE)
 }
 if (!file.exists("UCI HAR Dataset")) {
     unzip("source_dataset.zip")
