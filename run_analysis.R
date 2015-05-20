@@ -73,4 +73,4 @@ View(finaldata)
 ##View(read.table("finaldata.txt",header=T))
 ##remove objects from environment that are no longer needed
 rm("vctr_activity_names","vctr_feature_labels","df_test_subject","df_train_subject","df_test_activity","df_train_activity","df_test_measures","df_train_measures","df_combined")
-print("Data has been processed. finaldata.txt has been written to the working directory. It contains the tidy data set of the mean of each subject's activities across each feature measurement. The file has been loaded for viewing and the data frame has been left in the R environment")
+print("Data has been processed. finaldata.txt has been written to the working directory. It contains the tidy data set of the mean of each subject's activities across each feature measurement. The data frame has been loaded for viewing")
