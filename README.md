@@ -5,6 +5,8 @@ Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
+https://sites.google.com/site/harsmartlab/
+Contact:
 activityrecognition@smartlab.ws | www.smartlab.ws
 ### This tidy data set contains the mean of standard deviation and mean of 66 feature measures for 30 subjects across 6 activities.  It was derived from the study data as described below.
 #DESCRIPTION OF run_analysis.R SCRIPT
