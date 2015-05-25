@@ -6,8 +6,8 @@ Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 Web Sites>>
-
     1. https://sites.google.com/site/harsmartlab/
+    
     2. http://www.smartlab.ws
 Email>>
 activityrecognition@smartlab.ws
